@@ -1,0 +1,40 @@
+#sidebar{
+	position: fixed;
+	background-color: cyan;
+	color: white;
+	width: 100px;
+	top: 40px;
+}
+
+h1{
+	position: relative;
+	left: 100px;
+}
+
+.important{
+	background-color: green;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 150px;
+	height: 100px;
+}
+
+.not-important{
+	background-color: yellow;
+	overflow: hidden;
+	width: 150px;
+	height: 80px;
+}
+
+.more-important{
+	background-color: red;
+	z-index: -1;
+	position: relative;
+	top: -40px;
+	left: 50px;
+	width: 150px;
+	height: 100px;
+}

@@ -1,0 +1,24 @@
+.div3{
+	background-color: yellow;
+}
+
+#turtle_left{
+	float: left;
+	border: 2px blue inset;
+	margin: 10px;
+}
+
+.div4{
+	background-color: #f9f;
+}
+
+#cat_right{
+	float: right;
+	border: 2px blue inset;
+	margin: 20px;
+	margin-right: 5px;
+}
+
+.clear-it{
+	clear: both;
+}

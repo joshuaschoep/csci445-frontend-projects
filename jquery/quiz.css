@@ -1,0 +1,34 @@
+aside{
+    margin-top: 32px;
+    box-sizing: border-box;
+    display: block;
+    width: 33vw;
+    float: left;
+    background-color: #ccc;
+    border-radius: 10px;
+    min-height: 240px;
+    font-size: 24px;
+    text-align: center;
+}
+
+section.quiz{
+    box-sizing: border-box;
+    width: 66vw;
+    float: right;
+    text-align: center;
+}
+
+.quiz label{
+    font-size: 24px;
+}
+
+.quiz div{
+    min-height: 80px;
+    background-color: #ccc;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#answer button{
+    display: none;
+}

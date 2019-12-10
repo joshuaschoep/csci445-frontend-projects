@@ -1,0 +1,34 @@
+div{
+	border: 3px black dashed;
+}
+
+.outer{
+	width: 200px;
+	height: 200px;
+	background-color: #9ef;
+}
+
+.inner1, .inner2, .inner3{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+}
+
+.inner1{
+	float: right;
+	margin: 10px;
+	padding: 20px;
+}
+
+.inner2{
+	float: left;
+	margin: 10px;
+	padding: 10px;
+}
+
+.inner3{
+	float: right;
+	margin-top: 40px;
+	margin-right: 0px;
+	padding: 0
+}

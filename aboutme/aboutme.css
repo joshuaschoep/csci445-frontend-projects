@@ -1,0 +1,78 @@
+a{
+	color: red;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: #ddd;
+}
+
+a:active{
+	background-color: #aaa;
+}
+
+a:visited{
+	color: purple;
+}
+
+h2{
+	text-align: center;
+}
+
+section{
+	padding: 10px;
+	padding-left: 30px;
+}
+
+table{
+    margin: auto;
+    margin-top: 40px;
+}
+
+table caption{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background-color: red;
+}
+
+#schedule{
+    border: 1px solid blue;
+}
+
+#schedule thead{
+    background-color: red;
+    color: green;
+}
+
+#fruits{
+    border-collapse: collapse;
+}
+
+#fruits td, #fruits th{
+    border: 1px solid black;
+}
+
+#fruits thead{
+    background-color: blue;
+    color: white;
+}
+
+#fruits tfoot{
+    background-color: green;
+    color: white;
+}
+
+#days td{
+    border-bottom: 1px dashed black;
+}
+
+#days tr:nth-of-type(odd){
+    background-color: #333;
+    color: white;
+}
+
+#days tbody tr:last-of-type td{
+    border-bottom: none;
+}
